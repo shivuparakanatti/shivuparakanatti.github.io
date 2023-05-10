@@ -17,6 +17,7 @@ const handleMouseDownOnce = () => {
 
   window.removeEventListener('mousedown', handleMouseDownOnce)
   window.addEventListener('keydown', handleFirstTab)
+  
 }
 
 window.addEventListener('keydown', handleFirstTab)
